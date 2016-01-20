@@ -1,0 +1,82 @@
+[
+    {
+      "ID": 1529159300,
+      "Title": "Expert Oracle and Java Security",
+      "SubTitle": "Programming Secure Oracle Database Applications With Java",
+      "Description": "Expert Oracle and Java Security: Programming Secure Oracle Database Applications with Java provides resources that every Java and Oracle database application programmer needs to ensure that they have guarded the security of the data and identities en ...",
+      "Image": "http://s.it-ebooks-api.info/6/expert_oracle_and_java_security.jpg",
+      "isbn": "9781430238317"
+    },
+    {
+      "ID": 832671681,
+      "Title": "The Well-Grounded Java Developer",
+      "SubTitle": "Vital techniques of Java 7 and polyglot programming",
+      "Description": "The Well-Grounded Java Developer starts with thorough coverage of Java 7 features like try-with-resources and NIO.2. You'll then explore a cross-section of emerging JVM-based languages, including Groovy, Scala, and Clojure. You will find clear exampl ...",
+      "Image": "http://s.it-ebooks-api.info/5/the_well-grounded_java_developer.jpg",
+      "isbn": "9781617290060"
+    },
+    {
+      "ID": 2477896804,
+      "Title": "Pro Java ME Apps",
+      "SubTitle": "Building Commercial Quality Java ME Apps",
+      "Description": "Pro Java ME Apps gives you, the developer, the know-how required for writing sophisticated Java ME applications and for taking advantage of this huge potential market. Java ME is the largest mobile software platform in the world, supported by over 80 ...",
+      "Image": "http://s.it-ebooks-api.info/6/pro_java_me_apps.jpg",
+      "isbn": "9781430233275"
+    },
+    {
+      "ID": 50989271,
+      "Title": "Java EE 6 Pocket Guide",
+      "SubTitle": "A Quick Reference for Simplified Enterprise Java Development",
+      "Description": "This handy guide provides an overview of Java Enterprise Edition 6's main technologies and includes extensive, easy-to-understand code samples that demonstrate the platform's many improvements. You'll quickly understand how Java EE 6 simplifies the p ...",
+      "Image": "http://s.it-ebooks-api.info/3/java_ee_6_pocket_guide.jpg",
+      "isbn": "9781449336684"
+    },
+    {
+      "ID": 3873652297,
+      "Title": "Sams Teach Yourself Java in 24 Hours, 6th Edition",
+      "SubTitle": "Covering Java 7 and Android",
+      "Description": "In just 24 lessons of one hour or less, you can learn how to create Java applications with the free NetBeans visual editing tools.\n\nUsing a straightforward, step-by-step approach, popular author Rogers Cadenhead helps you master the skills and tech ...",
+      "Image": "http://s.it-ebooks-api.info/12/sams_teach_yourself_java_in_24_hours_6th_edition.jpg",
+      "isbn": "9780672335754"
+    },
+    {
+      "ID": 840578312,
+      "Title": "Java Cookbook, 2nd Edition",
+      "SubTitle": "Solutions and Examples for Java Developers",
+      "Description": "You have a choice: you can wade your way through lengthy Java tutorials and figure things out by trial and error, or you can pick up Java Cookbook, 2nd Edition and get to the heart of what you need to know when you need to know it.\n\nWith the comple ...",
+      "Image": "http://s.it-ebooks-api.info/3/java_cookbook_2nd_edition.jpg",
+      "isbn": "9780596007010"
+    },
+    {
+      "ID": 1250680761,
+      "Title": "Java 2 Micro Edition",
+      "SubTitle": "Java in Small Things",
+      "Description": "Java2, Micro Edition (J2ME) is a technology defined by many specifications. These specifications help J2ME address the diverse needs of this wide spectrum of consumer products. This guide describes the architecture of J2ME and demonstrates the variou ...",
+      "Image": "http://s.it-ebooks-api.info/5/java_2_micro_edition.jpg",
+      "isbn": "9781930110335"
+    },
+    {
+      "ID": 2005343385,
+      "Title": "Java 7 Pocket Guide, 2nd Edition",
+      "SubTitle": "Instant Help for Java Programmers",
+      "Description": "When you need quick answers for developing or debugging Java programs, this pocket guide provides a handy reference to the standard features of the Java programming language and its platform. You'll find helpful programming examples, tables, figures, ...",
+      "Image": "http://s.it-ebooks-api.info/3/java_7_pocket_guide_2nd_edition.jpg",
+      "isbn": "9781449343569"
+    },
+    {
+      "ID": 2950151319,
+      "Title": "An Introduction to Network Programming with Java, 3rd Edition",
+      "SubTitle": "Java 7 Compatible",
+      "Description": "Since the second edition of this text, the use of the Internet and networks generally has continued to expand at a phenomenal rate. This has led to both an increase in demand for network software and to improvements in the technology used to run such ...",
+      "Image": "http://s.it-ebooks-api.info/16/an_introduction_to_network_programming_with_java_3rd_edition.jpg",
+      "isbn": "9781447152538"
+    },
+    {
+      "ID": 4219242634,
+      "Title": "Java Persistence with MyBatis 3",
+      "SubTitle": "A practical guide to MyBatis, a simple yet powerful Java Persistence Framework!",
+      "Description": "Storing and retrieving data to and from relational databases is a very common requirement, and is a crucial part of many applications. Even though Java provides a JDBC API for database access, it is not very effective and involves writing the boilerp ...",
+      "Image": "http://s.it-ebooks-api.info/14/java_persistence_with_mybatis_3.jpg",
+      "isbn": "9781782166801"
+    }
+  ]

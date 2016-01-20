@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base href="/" >
+    <meta charset="utf-8">
+    <title>Introduction to Angular2 - Employee Directory Application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <!-- 1. Load libraries -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- ES6 shim added to support ES6 features in legance browser and IE 11 -->    
+    <script src="node_modules/es6-shim/es6-shim.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="node_modules/angular2/bundles/http.dev.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script>
+   /* When there is a request for modules under /app folder, the packages node tells SystemJS to
+      load module with file extension .js from /app folder */
+        System.config({
+            map: {
+                rxjs: 'node_modules/rxjs' //or wherever you have it installed
+            },
+            packages: {        
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                },
+                rxjs: {
+                    defaultExtension: 'js'
+                }
+            }
+        });
+    //Manual bootstrap of application using system.js     
+        System.import('app/boot')
+            .then(null, console.error.bind(console));
+    </script>
+</head>
+<body>
+  <!-- 3. Display the application -->
+    <div class="container">
+        <my-app>Loading the app ....</my-app>
+    </div>
+</body>
+</html>

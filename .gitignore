@@ -1,0 +1,26 @@
+# Logs
+pids
+logs
+*.pid
+*.log
+
+# Never commit node_modules
+node_modules
+
+# For Angular2 NEVER commit Javascript files to GIT
+*.js
+*.js.map
+
+# Tarballs
+*.gz
+*.tgz
+
+# Other
+*.seed
+*.csv
+*.dat
+*.out
+.reloadStatic
+
+# Environment-specific configuration - NEVER commit to GIT
+.env
