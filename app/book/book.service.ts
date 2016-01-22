@@ -4,12 +4,16 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class BookService {
+    private baseUrl: string = 'http://it-ebooks-api.info/v1/search/';      
 
-  constructor(private _http: Http) {}
+    constructor(private _http: Http) {}
 
-  getBooks() {
-    return this._http.get('/app/book/books.json')
-    .map((res:Response) => res.json());
-  }
+    getBooks1(searchText:string) {
+        return this._http.get(this.baseUrl + searchText)
+            .map((res: Response) => {
+              console.log('response is ', res.json().Books);
+              return res.json().Books;
+            });
+    }
 
 }

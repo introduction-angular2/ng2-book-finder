@@ -1,15 +1,24 @@
-<div class="row" role="application">
-  <ol id="book-list"  >
-    <li class="book-tile"  *ngFor="#book of books | async">
-      <div class="col-md-12 text-center">
-            <h3>{{book.Title}}</h3>
-            <p>{{book.Description}}</p>
-          </div>
-      <div class="col-md-12">
-        <img src="{{book.Image}}" class="img-responsive book-img" />
+<div>
+  <div class="row" >
+    <form class="navbar-form navbar-left" role="search">
+      <div class="input-group">
+         <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-search"></i></span>
+         <input type="text" class="form-control input-lg"  [ngFormControl]="searchBox" placeholder="Search Book......" >
       </div>
+    </form> 
+  </div>
+  <div class="row" role="application">
+    <ol id="book-list"  >
+      <li class="book-tile"  *ngFor="#book of books | async">
+        <div class="col-md-12 text-center">
+              <h3>{{book.Title}}</h3>
+              <p>{{book.Description}}</p>
+            </div>
+        <div class="col-md-12">
+          <img src="{{book.Image}}" class="img-responsive book-img" />
+        </div>
 
-    </li>
-  </ol>
+      </li>
+    </ol>
+  </div>
 </div>
-
