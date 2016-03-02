@@ -1,5 +1,5 @@
 {
-  "name": "ng2-employee-directory",
+  "name": "ng2-book-finder",
   "version": "1.0.0",
   "scripts": {
     "tsc": "tsc",
