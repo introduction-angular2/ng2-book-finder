@@ -18,7 +18,7 @@ A very simple implementation of Book Search SPA using Angular 2. This SPA provid
 - Optional - Make sure you have docker setup on your local machine to run the application SPA as docker container.   Refer [installation on windows](https://docs.docker.com/engine/installation/windows/) and  [installation on Mac OS X](https://docs.docker.com/engine/installation/mac/) 
 
 ## Dependencies
-RA locale blocks have dependencies on:
+Book Finder SPA have dependencies on:
 
 1. [angular2 2.0.0-beta.0](https://angular.io/)
 2. [bootstrap ~3.2.0](http://getbootstrap.com/)
@@ -83,5 +83,5 @@ For running the app on your docker machine as docker container, follow the below
 1. For Angular2 please visit [https://angular.io/](https://angular.io/)
 2. For Typescript please visit [http://www.typescriptlang.org/](http://www.typescriptlang.org/)
 2. For Reactive Javascript please visit [RxJS](https://github.com/Reactive-Extensions/RxJS)
-1. For all docker installation guide and commands please visit [docker documentation](#https://docs.docker.com/engine/)
+1. For all docker installation guide and commands please visit [docker documentation](https://docs.docker.com/engine/)
 
