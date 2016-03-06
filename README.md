@@ -51,7 +51,7 @@ TBD
         npm start
         
 
-1. This will open a browser and you will be able to access the demo at [http://localhost:3000](http://localhost:3000)
+2. This will open a browser and you will be able to access the demo at [http://localhost:3000](http://localhost:3000)
 
 ### Docker Machine
 For running the app on your docker machine as docker container, follow the below steps 
@@ -69,19 +69,25 @@ For running the app on your docker machine as docker container, follow the below
       ```bash
       docker build -t ng2-book-finder .
       ```
-4. Run the docker image.
+
+4. Verify docker image. 
+    
+      ```bash
+      docker images
+      ```
+5. Run the docker image.
 
 	 ```bash
       docker run -it --rm -p 3000:3000 --name ng2-book-finder ng2-book-finder
      ```
 
-5. Open a browser and access the application on URL http://[docker-machine-ip]:3000
+6. Open a browser and access the application on URL http://[docker-machine-ip]:3000
 
 
 ##Resources
 
 1. For Angular2 please visit [https://angular.io/](https://angular.io/)
 2. For Typescript please visit [http://www.typescriptlang.org/](http://www.typescriptlang.org/)
-2. For Reactive Javascript please visit [RxJS](https://github.com/Reactive-Extensions/RxJS)
-1. For all docker installation guide and commands please visit [docker documentation](https://docs.docker.com/engine/)
+3. For Reactive Javascript please visit [RxJS](https://github.com/Reactive-Extensions/RxJS)
+4. For all docker installation guide and commands please visit [docker documentation](https://docs.docker.com/engine/)
 
