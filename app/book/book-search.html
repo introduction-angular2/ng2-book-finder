@@ -9,7 +9,7 @@
   </div>
   <div class="row" role="application">
     <ol id="book-list"  >
-      <li class="book-tile"  *ngFor="#book of books | async">
+      <li class="book-tile"  *ngFor="let book of books | async">
         <div class="col-md-12 text-center">
               <h3>{{book.Title}}</h3>
               <p>{{book.Description}}</p>
