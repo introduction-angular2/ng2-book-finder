@@ -24,3 +24,7 @@ node_modules
 
 # Environment-specific configuration - NEVER commit to GIT
 .env
+
+# IDE files
+.idea
+.vscode

@@ -4,7 +4,7 @@ import {ROUTER_DIRECTIVES} from "angular2/router";
 @Component({
     selector : 'nav-bar',
     templateUrl : '/app/layout/navbar.html',
-    directives: [ROUTER_DIRECTIVES] 
+    directives: [ROUTER_DIRECTIVES]
 })
 
-export class NavbarComponent{}
+export class NavbarComponent {}
