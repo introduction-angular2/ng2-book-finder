@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "angular2": "^2.0.0-beta.17",
-    "bootstrap": "^3.3.6",
+    "bootstrap": "~3.2.0",
     "es6-promise": "^3.2.1",
     "es6-shim": "^0.35.1",
     "jquery": "^2.2.4",
